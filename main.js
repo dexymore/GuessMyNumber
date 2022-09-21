@@ -18,7 +18,7 @@ if(!regNum)
 }
 else if(regNum>20||regNum<0)
 {
-    document.querySelector('.message').textContent="please enter a number 😒"
+    document.querySelector('.message').textContent="please enter a valid number 🤬"
 }     
 else if(regNum === EliteNum){
         document.querySelector('.number').innerHTML=EliteNum
